@@ -509,6 +509,7 @@ button { font-family: inherit; cursor: pointer; }
   display: flex; align-items: center; justify-content: center;
   color: var(--gold);
 }
+.contact-info-item .ico svg { width: 19px; height: 19px; }
 .contact-info-item h4 { font-size: 0.72rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--ivory-faint); margin-bottom: 6px; }
 .contact-info-item p { color: var(--ivory); font-size: 0.98rem; }
 .contact-info-item a:hover { color: var(--gold); }
@@ -519,8 +520,10 @@ button { font-family: inherit; cursor: pointer; }
   border: 1px solid var(--ink-line);
   border-radius: 50%;
   display: flex; align-items: center; justify-content: center;
+  color: var(--ivory-dim);
   transition: border-color 0.3s var(--ease), color 0.3s var(--ease);
 }
+.contact-social a svg { width: 18px; height: 18px; }
 .contact-social a:hover { border-color: var(--gold); color: var(--gold); }
 
 .contact-map {
